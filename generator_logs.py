@@ -21,9 +21,9 @@ def generate_log(identify_number:int, timestamp:datetime):
     performance = ["NORMAL_MODE","SLOW_MODE"]
     mode = choices(performance,weights=[95,5],k=1)[0]
     if mode == "NORMAL_MODE":
-        latency_ms = int(gauss(250,70))
+        latency_ms = max(80,int(gauss(250,70)))
     else:
-        latency_ms = int(gauss(2200,400))
+        latency_ms = max(500,(int(gauss(2200,400))))
     log = {
             "id_transaction" : f"TX-{identify_number:06d}",
             "timestamp" : timestamp.isoformat(),
