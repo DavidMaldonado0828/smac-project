@@ -24,7 +24,7 @@ def generate_log(identify_number:int, timestamp:datetime):
             "channel" : choices(channel,weights=[45,15,20,12,8],k=1)[0],
             "operation_type" : choices(opperation_type,weights=[40,35,20,5],k=1)[0],
             "response_code" : choices(response_code,weights=[95,2,1,1,1],k=1)[0],
-            "amount": f"${randint(10000,3000000):,}",
+            "amount": randint(10000,3000000),
             "latency_ms" : round(gauss(200,30),3)
     }
     print(json.dumps(log,indent = 2,ensure_ascii=False))
