@@ -33,11 +33,14 @@ def generate_log(identify_number:int, timestamp:datetime):
             "amount": randint(10000,3000000),
             "latency_ms" : latency_ms
     }
-    print(json.dumps(log,indent = 2,ensure_ascii=False))
+    return log
 
 register_number = 10
 timestamp = datetime(2026,7,8,8,34,56)
+register = []
 for i in range(register_number):
-    generate_log(i+1, timestamp)
+    register.append(generate_log(i+1, timestamp))
     timestamp += timedelta(seconds=2)
 
+with open("logs_example.json","w", encoding="utf-8") as file:
+    json.dump(register, file , indent = 2, ensure_ascii=False)
