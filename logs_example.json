@@ -1,0 +1,92 @@
+[
+  {
+    "id_transaction": "TX-000001",
+    "timestamp": "2026-07-08T08:34:56",
+    "channel": "SUC",
+    "operation_type": "BALANCE_INQUIRY",
+    "response_code": "00",
+    "amount": 2009160,
+    "latency_ms": 286
+  },
+  {
+    "id_transaction": "TX-000002",
+    "timestamp": "2026-07-08T08:34:58",
+    "channel": "APP",
+    "operation_type": "PAYMENT",
+    "response_code": "00",
+    "amount": 778151,
+    "latency_ms": 234
+  },
+  {
+    "id_transaction": "TX-000003",
+    "timestamp": "2026-07-08T08:35:00",
+    "channel": "APP",
+    "operation_type": "PAYMENT",
+    "response_code": "00",
+    "amount": 1313607,
+    "latency_ms": 194
+  },
+  {
+    "id_transaction": "TX-000004",
+    "timestamp": "2026-07-08T08:35:02",
+    "channel": "PSE",
+    "operation_type": "BALANCE_INQUIRY",
+    "response_code": "00",
+    "amount": 324716,
+    "latency_ms": 182
+  },
+  {
+    "id_transaction": "TX-000005",
+    "timestamp": "2026-07-08T08:35:04",
+    "channel": "PSE",
+    "operation_type": "TRANSFER",
+    "response_code": "91",
+    "amount": 1275449,
+    "latency_ms": 358
+  },
+  {
+    "id_transaction": "TX-000006",
+    "timestamp": "2026-07-08T08:35:06",
+    "channel": "APP",
+    "operation_type": "BALANCE_INQUIRY",
+    "response_code": "91",
+    "amount": 1763024,
+    "latency_ms": 268
+  },
+  {
+    "id_transaction": "TX-000007",
+    "timestamp": "2026-07-08T08:35:08",
+    "channel": "PSE",
+    "operation_type": "BALANCE_INQUIRY",
+    "response_code": "00",
+    "amount": 404400,
+    "latency_ms": 211
+  },
+  {
+    "id_transaction": "TX-000008",
+    "timestamp": "2026-07-08T08:35:10",
+    "channel": "SUC",
+    "operation_type": "TRANSFER",
+    "response_code": "00",
+    "amount": 1587492,
+    "latency_ms": 248
+  },
+  {
+    "id_transaction": "TX-000009",
+    "timestamp": "2026-07-08T08:35:12",
+    "channel": "SUC",
+    "operation_type": "PAYMENT",
+    "response_code": "00",
+    "amount": 2850606,
+    "latency_ms": 257
+  },
+  {
+    "id_transaction": "TX-000010",
+    "timestamp": "2026-07-08T08:35:14",
+    "channel": "APP",
+    "operation_type": "TRANSFER",
+    "response_code": "00",
+    "amount": 2490298,
+    "latency_ms": 212
+  }
+]
