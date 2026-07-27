@@ -26,7 +26,7 @@ COMMENT ON COLUMN codes.is_correct IS 'Indicates whether the code represents a s
 
 
 CREATE TABLE transactions(
-    transaction_id  SERIAL PRIMARY KEY,
+    transaction_id VARCHAR(10) PRIMARY KEY, 
     channel_id INT NOT NULL,
     code_id VARCHAR(2) NOT NULL,
     latency_ms INT NOT NULL,
