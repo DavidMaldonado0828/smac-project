@@ -2,13 +2,8 @@ from datetime import datetime
 from copy import deepcopy
 from extract import extract_logs
 
-KEY_TRANSACTION =  "id_transaction"
 KEY_TIMESTAMP = "timestamp"
 KEY_CHANNEL = "channel"
-KEY_OPERATION = "operation_type"
-KEY_RESPONSE_CODE = "response_code"
-KEY_AMOUNT = "amount"
-KEY_LATENCY = "latency_ms"
 
 channel_map = {"APP": 1, "SUC" : 2, "ATM" : 3 , "PSE" : 4, "CB": 5}
 
