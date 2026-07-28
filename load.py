@@ -52,7 +52,7 @@ def load_logs(data_transform : list[dict]):
                                data
                                 )
     except psycopg2.Error as e:
-        print("Hubo problemas con la base de datos", e)
+        raise
 
 
 
