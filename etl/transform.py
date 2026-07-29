@@ -27,7 +27,7 @@ def transform_logs(data_validate : list[dict]) -> list[dict]:
 
 if __name__ == "__main__":
 
-    data = extract_logs("logs_example.json")
+    data = extract_logs("generator/logs_example.json")
 
     transform_data = transform_logs(data)
     

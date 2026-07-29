@@ -57,7 +57,7 @@ def load_logs(data_transform : list[dict]):
 
 
 if __name__ == "__main__":
-    extract_data = extract_logs("logs_example.json")
+    extract_data = extract_logs("generator/logs_example.json")
     transform_data = transform_logs(extract_data)
     load_logs(transform_data)
     

@@ -7,7 +7,7 @@ from datetime import datetime
 if __name__ == "__main__":
 
     try:
-        file_path = "logs_example.json"
+        file_path = "generator/logs_example.json"
 
         data = extract_logs(file_path)
 

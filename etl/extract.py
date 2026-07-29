@@ -7,7 +7,7 @@ def extract_logs(file_path : str) -> list[dict]:
     
 
 if __name__ == "__main__":
-    data = extract_logs("logs_example.json")
+    data = extract_logs("generator/logs_example.json")
     print(data[0])
     print(len(data))
     print(type(data))
